@@ -1,0 +1,170 @@
+body {
+background-image: url("fractal1.jpg");}
+ 
+h1 {
+font: oblique 600 12pt arial; color: #ffff00; text-align: center;}
+ 
+h2 {
+font: bold 20pt verdana; color: #ffffff; text-align: center;}
+ 
+h3 {
+font: normal 12pt "times new roman"; color: 006c00; text-align: justify;}
+ 
+h4 {
+font: oblique 700 12pt arial; color: #ff0000; text-align: center;}
+ 
+h5 {
+font: bold 20pt arial; color: #00ffff; text-align: center;}
+ 
+#main-banner {
+height: 110px;
+width:800px;
+border: 8px groove #ff0000;
+background: #ebe9ba;
+margin-top:0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+color: #006c00;
+font-size: 15pt;
+font-family: arial;
+text-align: center;}
+ 
+#left-menu {
+float:left;
+height:502px;
+width: 100px;
+background: #089443;
+padding: 0px;
+margin-top:1px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-left: 1px;
+color: #00ff00;
+font-size: 12pt;
+font-family: arial;
+text-align: left;}
+ 
+#right-menu {
+position: absolute;
+left: 722px;
+height:502px;
+width: 100px;
+background: #089443;
+padding: 0px;
+margin-top:1px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-left: 1px;
+color: #00ff00;
+font-size: 12pt;
+font-family: arial;
+text-align: left;}
+ 
+#main-area {
+float: none;
+height: 500px;
+width: 500px;
+background: #006cba;
+font: normal 9pt arial; text-align: justify; color: #ffffff;
+padding: 2px;
+margin-top:1px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-left: 1px;}
+ 
+#right-area {
+position: absolute;
+top: 114px;
+left: 514px;
+height: 500px;
+width: 203px;
+background: #ffd6be;
+font: normal 10pt arial; text-align: justify; color: #ffffff;
+padding: 2px;
+margin-top:20px;
+margin-right: 1px;
+margin-bottom: 1px;
+margin-left: 1px;}
+ 
+#footer {
+height: 5opx;
+width: 800px;
+border: 8px groove #0000ff;
+background: #800000;
+margin-top:2px;
+margin-right: 0px;
+margin-bottom: 2px;
+margin-left: 0px;
+color: #00ffff;
+font-size: 15pt;
+font-family: arial;
+text-align: center;}
+ 
+#menu {
+ 
+/*largura do box*/
+width: 98px;
+ 
+/*posicionamento*/
+position: absolute;
+top: 0px;
+left: 0px;
+ 
+/*enchimento*/
+padding: 0px;
+ 
+/*bordas*/
+border: 5px solid #c0c0c0;
+ 
+/*margens*/
+margin: 0px;
+ 
+/*cor de fundo*/
+background:#006c00;}
+ul.elemento-ul {
+/*largura do box*/
+widht: 90px;
+list-style-type: none;
+ 
+/*enchimento*/
+padding: 0px;
+ 
+/*margens*/
+margin: 0px;}
+ 
+li.elemento-li  {
+/*largura do box*/
+width: 90px;
+ 
+/*enchimento*/
+padding: 2px;
+ 
+/*bordas*/
+border: 1px none #0000ff;
+ 
+/*margens*/
+margin: 2px;
+ 
+/*cor de fundo*/
+background: #fef2cd;}
+ 
+/*imagem*/
+a span.ball {visibility: hidden}
+a:hover span.ball {visibility: visible}
+ 
+/*links*/
+ 
+a {
+font: normal 10pt verdana;}
+ 
+/*cor dos links*/
+ 
+a:link {
+color: #006cff;}
+ 
+a:visited {
+color: #ff00ff;}
+ 
+a:active {
+color: #008000;}
